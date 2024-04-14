@@ -25,7 +25,7 @@ class Grid(object):
             *rows (): the instances of Row.
             **kwargs (): not used.
         """
-        if not all([isinstance(r, Row) for r in rows]):
+        if not all(isinstance(r, Row) for r in rows):
             raise TypeError('All elements of Grid must be Row instances')
         self.type = 'grid'
         self.rows = rows
@@ -42,7 +42,7 @@ class Row(object):
             *columns (): the instances of Column.
             **kwargs (): not used.
         """
-        if not all([isinstance(c, Column) for c in columns]):
+        if not all(isinstance(c, Column) for c in columns):
             raise TypeError('All elements of Row must be Column instances')
         self.type = 'row'
         self.columns = columns
@@ -59,8 +59,8 @@ class Column(object):
             *elements (): the rows or boxes.
             **kwargs: the width can be passed through the keyword args [1-12].
         """
-        if not all([isinstance(e, Row) or issubclass(type(e), Box)
-                    for e in elements]):
+        if not all(isinstance(e, Row) or issubclass(type(e), Box)
+                    for e in elements):
             raise TypeError('All elements of Column must '
                             'be Row or Box instances')
         width = kwargs.pop('width', 12)
@@ -106,7 +106,7 @@ class Box(object):
             if not isinstance(widgets, (list, tuple)):
                 raise AttributeError('Box widgets attribute '
                                      'must be a list or tuple')
-            if not all([isinstance(e, Widget) for e in widgets]):
+            if not all(isinstance(e, Widget) for e in widgets):
                 raise ValueError('All elements of Box must be Widget instances')  # noqa
 
             try:
