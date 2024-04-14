@@ -1,0 +1,138 @@
+repo_name: LokeshJonnakuti/django-suit-dashboard
+report_id: 48bae7f66ae687a1366979fc37bd1332
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:53:07+00:00'
+requested_by: pawamoy
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/requirements/test.txt
+  detection_source: requirements/test.txt
+  last_updated_by: Timothée Mazzucotelli
+  last_updated_on: 2016-12-08 16:33:33.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Timothée Mazzucotelli
+  last_updated_on: 2016-12-08 18:29:14.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/requirements/test.txt
+  detection_source: requirements/test.txt
+  last_updated_by: pyup-bot
+  last_updated_on: 2018-03-05 14:13:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard
+  detection_source: Repo Metadata
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/requirements/ci.txt
+  detection_source: requirements/ci.txt
+  last_updated_by: Timothée Mazzucotelli
+  last_updated_on: 2016-11-29 17:01:35.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 2.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: pyup-bot
+  last_updated_on: 2018-02-19 14:13:13.000000000 Z
+  vulnerabilities:
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 2.2.25
+- name: sphinx-rtd-theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx-rtd-theme
+  version: 0.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20198/default_1b766c7727f93da29992cd7a2499f00a0ba7bc2d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/django-suit-dashboard/blob/master/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: pyup-bot
+  last_updated_on: 2018-03-05 14:13:09.000000000 Z
