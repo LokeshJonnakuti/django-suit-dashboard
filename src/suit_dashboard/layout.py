@@ -9,8 +9,6 @@ instances of Column, the class to build a new column. You nest new rows into
 columns. A column also contain boxes.
 """
 
-from __future__ import unicode_literals
-
 from .widgets import Widget
 
 

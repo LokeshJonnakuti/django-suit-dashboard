@@ -8,8 +8,6 @@ a instance of Widget as real-time. The instance has to be registered at
 compile time in order for Django to know the URL used to return contents.
 """
 
-from __future__ import unicode_literals
-
 from hashlib import sha256
 
 from .apps import AppSettings

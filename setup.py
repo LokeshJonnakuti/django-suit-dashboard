@@ -8,8 +8,6 @@ Uses setuptools.
 Long description is a concatenation of README.rst and CHANGELOG.rst.
 """
 
-from __future__ import absolute_import, print_function
-
 import io
 import re
 from glob import glob

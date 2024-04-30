@@ -6,8 +6,6 @@ Inheritable views.
 DashboardView for classic views and RefreshableDataView for refreshable items.
 """
 
-from __future__ import unicode_literals
-
 from django.conf import settings
 from django.views.generic import TemplateView
 
